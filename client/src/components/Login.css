@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; }
+
+#LoginContainer {
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ padding-top: 100px;
+}
+
+#FormDiv {
+ display: flex;
+ flex-direction: column;
+}
+
+#username, #password, #login {
+ text-align: center;
+ border: 1px solid gray;
+ font-family: sans-serif;
+ padding: 5px;
+ border-radius: 5px;
+ gap: 3px;
+ box-shadow: 5px 2px 5px 3px rgb(169, 169, 169);
+}
+
+#login {
+ font-weight: 600;
+ font-size: 12px;
+}
